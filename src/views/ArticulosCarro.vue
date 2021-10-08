@@ -29,7 +29,7 @@ export default {
     
     arrayCard: [
       {
-        titleCard: "CASCO TR902XSV STREETFIGHTER SV-TWIN-C4-NARANJA ",
+        titleCard: "Kit Cubreasiento Lujo Negro",
         subtitleCard: " $420.000 COP" ,
         textCard: "Homologado ECE 2205R Peso 1.300 gr  Interior desmontable y lavable, Tejidos anti alergénicos, Ventilación interna, Hebilla de cierre micrométrico metálico, Poliestireno interno de múltiple densidad, Pantalla solar interna."
 ,
