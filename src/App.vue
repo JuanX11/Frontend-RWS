@@ -1,32 +1,106 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-responsive>
+    <v-app>
+      <v-app-bar app color="rgb(45, 68, 102)" dark>
+        <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
+
+        <v-spacer></v-spacer>
+        <v-btn to="/" color="rgb(45, 68, 102)" elevation="0"  flat>
+          <h4 style="color: #ffffff">Inicio</h4>
+        </v-btn>
+        <div class="text-left">
+          <v-menu offset-y>
+            <template v-slot:activator="{ on, attrs }">
+              <v-btn
+                
+                color="rgb(45, 68, 102)"
+                elevation="0"
+                dark
+                v-bind="attrs"
+                v-on="on"
+              >
+                <h4 style="color: #ffffff">Artículos</h4>
+              </v-btn>
+            </template>
+            <!-- BOTONES MENU ARTICULOS   -->
+            <v-list color="rgb(45, 68, 102)" dense nav>
+              <v-list-items link>
+                <v-btn
+                  elevation="0"
+                  to="/Articulos-Motos"
+                  color="rgb(45, 68, 102)"
+                  height="40"
+                  width="110"
+                >
+                  <h4 style="color: #ffffff">Motos</h4>
+                </v-btn>
+
+                <v-spacer></v-spacer>
+                <v-btn
+                  elevation="0"
+                  color="rgb(45, 68, 102)"
+                  height="40"
+                  width="110"
+                  to="/Articulos-Carros"
+                >
+                  <h4 style="color: #ffffff">Carros</h4>
+                </v-btn>
+                <v-spacer></v-spacer>
+                <v-btn
+                  elevation="0"
+                  to="/Articulos-Bicicleta"
+                  color="rgb(45, 68, 102)"
+                  height="40"
+                  width="110"
+                >
+                  <h4 style="color: #ffffff">Bicicletas</h4>
+                </v-btn>
+              </v-list-items>
+            </v-list>
+          </v-menu>
+        </div>
+        <!-- Boton NOSOTROS        -->
+        <v-btn
+          color="rgb(45, 68, 102)"
+          elevation="0"
+          to="/Nosotros"
+        >
+          <h4 style="color: #ffffff">Nosotros</h4>
+        </v-btn>
+
+        <!-- Boton usuario      -->
+        <v-btn color="rgb(45, 68, 102)" elevation="0"  to="/Usuario">
+          <h4 style="color: #ffffff">
+            <v-icon>mdi-account</v-icon>
+          </h4>
+        </v-btn>
+
+        <!-- Boton Carrito         -->
+        <v-btn
+          color="rgb(45, 68, 102)"
+          elevation="0"
+          to="/CarroDeCompras"
+        >
+          <h4 style="color: #ffffff">
+            <v-icon>mdi-cart</v-icon>
+          </h4>
+        </v-btn>
+      </v-app-bar>
+
+      <v-main>
+        <router-view />
+      </v-main>
+    </v-app>
+  </v-responsive>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+export default {
+  name: "App",
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({
+    //
+  }),
+};
+</script>
