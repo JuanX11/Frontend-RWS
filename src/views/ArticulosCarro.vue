@@ -29,11 +29,11 @@ export default {
     
     arrayCard: [
       {
-        titleCard: "Kit Cubreasiento Lujo Negro",
+        titleCard: "KIT PROTECTORES DE ASIENTOS LUJO NEGRO",
         subtitleCard: " $420.000 COP" ,
-        textCard: "Homologado ECE 2205R Peso 1.300 gr  Interior desmontable y lavable, Tejidos anti alergénicos, Ventilación interna, Hebilla de cierre micrométrico metálico, Poliestireno interno de múltiple densidad, Pantalla solar interna."
+        textCard: "Cuida tu vehículo con el mejor estilo. Este cubre asiento ajusta bien, protege la cojinería, es cómodo y antiderrame."
 ,
-        img: "https://images-na.ssl-images-amazon.com/images/I/41YWS393GqL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+        img: "https://homecenterco.scene7.com/is/image/SodimacCO/234591",
       },
       {
         titleCard: "GUANTE SD-C16 VERANO URBAN HOMBRE NEGRO GRIS",
