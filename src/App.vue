@@ -3,9 +3,7 @@
     <v-app>
       <v-app-bar app color="rgb(45, 68, 102)" dark>
         <v-spacer></v-spacer>
-        <v-spacer></v-spacer>
-
-        <v-spacer></v-spacer>
+        
         <v-btn to="/" color="rgb(45, 68, 102)" elevation="0"  flat>
           <h4 style="color: #ffffff">Inicio</h4>
         </v-btn>

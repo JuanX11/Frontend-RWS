@@ -23,10 +23,10 @@ export default {
           src: require("../assets/ImagenesCarrousel/Moto.jpg"),
         },
         {
-          src: require("../assets/ImagenesCarrousel/Moto.jpg"),
+          src: require("../assets/ImagenesCarrousel/CarroCarrousel.jpg"),
         },
         {
-          src: require("../assets/ImagenesCarrousel/Moto.jpg"),
+          src: require("../assets/ImagenesCarrousel/Bicicleta Carrousel.png"),
         },
       ],
     };
