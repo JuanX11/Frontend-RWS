@@ -28,23 +28,34 @@ export default {
     
     arrayCard: [
       {
-        titleCard: "CASCO TR902XSV STREETFIGHTER SV-TWIN-C4-NARANJA ",
-        subtitleCard: " $420.000 COP" ,
-        textCard: "Homologado ECE 2205R Peso 1.300 gr  Interior desmontable y lavable, Tejidos anti alergénicos, Ventilación interna, Hebilla de cierre micrométrico metálico, Poliestireno interno de múltiple densidad, Pantalla solar interna."
-,
-        img: "https://images-na.ssl-images-amazon.com/images/I/41YWS393GqL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+        titleCard: "COMBO X5 CASCO + GUANTES + LUCES + CANDADO + BUFANDA OFERTA",
+        subtitleCard: " $COP" ,
+        textCard: "CASCO GW MANTIS,  Rueda de ajuste en la parte trasera, Espumas internas cómodas y protector de barbilla, Visera extraible, GUAYA DE SEGURIDAD DE CLAVE GW-150cm, Fácil cambio de clave, Fácil de llevar, Incluye base para montar en la bici. Color negro, Marca: GW",
+        img: "https://http2.mlstatic.com/D_NQ_NP_790180-MCO47260110689_082021-O.webp",
       },
       {
-        titleCard: "GUANTE SD-C16 VERANO URBAN HOMBRE NEGRO GRIS",
-        subtitleCard: "$80.000 COP",
-        textCard: "agadg",
-        img: "https://motosrissi.com/3191-large_default/guante-seventy-sdc16-verano-urban-hombre-negrogris.jpg",
+        titleCard: "",
+        subtitleCard: " $119.900 COP" ,
+        textCard: "",
+        img: "",
       },
       {
-        titleCard: "CHAQUETA SD-JT32 VERANO TOURING HOMBRE ICE ROJO",
-        subtitleCard: "418.621 COP",
-        textCard: "agadg",
-        img: "https://wikost.com/22881-large_default/chaqueta-sd-jt32-verano-touring-hombre-ice-rojo-s.jpg",
+        titleCard: "",
+        subtitleCard: " $COP" ,
+        textCard: "",
+        img: "",
+      },
+      {
+        titleCard: "",
+        subtitleCard: " $COP" ,
+        textCard: "",
+        img: "",
+      },
+      {
+        titleCard: "",
+        subtitleCard: " $COP" ,
+        textCard: "",
+        img: "",
       },
       
     ],
