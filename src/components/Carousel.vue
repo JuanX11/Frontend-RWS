@@ -1,5 +1,6 @@
 <template>
-  <v-carousel cycle>
+  <v-carousel cycle
+  height="632">
     <v-carousel-item
       v-for="(item, i) in items"
       :key="i"
@@ -26,7 +27,7 @@ export default {
           src: require("../assets/ImagenesCarrousel/CarroCarrousel.jpg"),
         },
         {
-          src: require("../assets/ImagenesCarrousel/Bicicleta Carrousel.png"),
+          src: require("../assets/ImagenesCarrousel/BicicletaCarrousel.png"),
         },
       ],
     };
