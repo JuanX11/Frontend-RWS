@@ -2,7 +2,19 @@
   <v-responsive>
     <v-app>
       <v-app-bar app color="rgb(45, 68, 102)" dark>
-        <v-spacer></v-spacer>
+        <v-spacer>
+          <v-toolbar-title>
+            <v-img 
+            alt="Logo"
+            class="shrink mr-2"
+            contain
+            src="./logo.png"
+            transition="scale-transition"
+            width="60"            >
+
+            </v-img>
+          </v-toolbar-title>
+        </v-spacer>
         
         <v-btn to="/" color="rgb(45, 68, 102)" elevation="0"  flat>
           <h4 style="color: #ffffff">Inicio</h4>
