@@ -16,7 +16,7 @@
           </v-toolbar-title>
         </v-spacer>
         
-        <v-btn to="/" color="rgb(45, 68, 102)" elevation="0"  flat>
+        <v-btn to="/" color="rgb(45, 68, 102)" elevation="0"  >
           <h4 style="color: #ffffff">Inicio</h4>
         </v-btn>
         <div class="text-left">
